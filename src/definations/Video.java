@@ -1,9 +1,9 @@
 package definations;
 
 public class Video {
-    public String getName() {
-        return "";
-    }
+    private String videoName;
+    private boolean checkOut;
+    private int rating;
 
 
 }

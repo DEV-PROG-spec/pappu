@@ -7,6 +7,18 @@ public class Video {
     private boolean checkOut;
     private int rating;
 
+    public void doCheckout() {
+        if (!checkOut) {
+            setCheckOut(true);
+        }
+    }
+
+    public void doReturn() {
+        if (checkOut) {
+            setCheckOut(false);
+        }
+    }
+
     //Constructor:Used to initialize the values of fields
     public Video() {
         videoName = "War";

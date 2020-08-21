@@ -70,5 +70,15 @@ public class VideoStore {
 
     }
 
+    /**
+     * This method set a new rating to a video
+     *
+     * @param name   The name of video whose rating you want to set
+     * @param rating The new rating you want to set
+     */
+    public void receiveRating(String name, int rating) {
+        System.out.println("The rating of" + name + "has been set to" + rating);
+    }
+
 
 }

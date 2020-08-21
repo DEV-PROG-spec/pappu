@@ -1,14 +1,12 @@
 package execution;
 
 
-import definations.Video;
+import definations.VideoStore;
 
 public class Main {
     public static void main(String[] args) {
-        Video video = new Video("Robot");
-        Video video2 = new Video("Dum");
-        System.out.println(video);
-        System.out.println(video.equals(video2));
+        VideoStore myVideoStore = new VideoStore();
+        myVideoStore.addVideo("Kick");
 
 
     }

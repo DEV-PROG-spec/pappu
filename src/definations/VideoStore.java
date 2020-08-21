@@ -51,4 +51,24 @@ public class VideoStore {
         System.out.println(name + " was added to inventory");
     }
 
+    /**
+     * This method help us to rent the video
+     *
+     * @param name The name of the video to rented
+     */
+    public void doCheckout(String name) {
+        System.out.println("Thank you for renting " + name + ".");
+    }
+
+    /**
+     * Thus method returns video back to the inventory
+     *
+     * @param name The name of the video to be returned
+     */
+    public void doReturn(String name) {
+        System.out.println("Thanks for renting, " + name + ".Hope you likr thr video");
+
+    }
+
+
 }

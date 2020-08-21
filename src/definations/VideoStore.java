@@ -80,5 +80,16 @@ public class VideoStore {
         System.out.println("The rating of" + name + "has been set to" + rating);
     }
 
+    /**
+     * This method shows the list of all the videos that are there in inventory
+     */
+    public void listInventory() {
+        for (Video video : store) {
+            System.out.println(video);
+
+        }
+
+    }
+
 
 }
